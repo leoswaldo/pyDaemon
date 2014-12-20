@@ -7,10 +7,9 @@ system (running in background, no matter if you close the shell). With your
 script extending the Daemon class you will be able to: Start, Stop and Restart
 the service.
 
-The Daemon class is based on
-www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/ , my
-contributions are next: I made it work in python3 , added som PEP8 Standards,
-commented code and modified/add/delete code.
+The Daemon class is based on [A simple unix/linux daemon in Python] by Sander
+Marechal , my contributions are next: I made it work in python3 , added PEP8
+Standards, commented code and modified/add/delete code.
 
 
 Phase
@@ -26,7 +25,7 @@ In Progress
 Usage
 ----
 
-Extend your class from Daemon, and overwrite the run method
+Extend your class from Daemon, and override the run method
 
 Example
 ----
@@ -50,3 +49,6 @@ Contributors Welcome
 > If you want to contribute to this project feel free to
 > put in contact with me (lmaciasm10@gmail.com) and lets discuss
 > your ideas :)
+
+
+[A simple unix/linux daemon in Python]:www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/
