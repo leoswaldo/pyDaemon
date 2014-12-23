@@ -12,15 +12,10 @@ Marechal , my contributions are next: I made it work in python3 , added PEP8
 Standards, commented code and modified/add/delete code.
 
 
-Phase
-----
-
-Development
-
 Status
 ----
 
-In Progress
+Ready to be used
 
 Usage
 ----
@@ -29,7 +24,7 @@ Extend your class from Daemon, and override the run method
 
 Example
 ----
-Coming soon ...
+See [Examples dir]
 
 
 Tech
@@ -52,3 +47,4 @@ Contributors Welcome
 
 
 [A simple unix/linux daemon in Python]:www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/
+[Examples dir]:https://github.com/leoswaldo/pyDaemon/tree/master/examples
